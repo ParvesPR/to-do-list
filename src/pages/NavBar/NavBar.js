@@ -5,16 +5,16 @@ import logo from '../../asset/todo.jpg'
 
 const NavBar = () => {
     const menuItems = <>
-    <li><Link to="/">Home</Link></li>
-    <li><Link to="/about">About Us</Link></li>
-    <li><Link to="/blogs">Blog</Link></li>
-    <li><Link to="/reviews">Notice</Link></li>
-    <li><Link to="/users">Users</Link></li>
+    <li><Link to="/home">Home</Link></li>
+    <li><Link to="/complete">Completed Task</Link></li>
+    <li><Link to="/todo">To Do</Link></li>
+    <li><Link to="/calendar">Calendar</Link></li>
+   
   </>
     return (
         <header>
         <nav className="navbar bg-[#4a4a4a] font-bold">
-          <div className="navbar-start relative flex align-middle items-center ">
+          <div className="navbar-start relative flex align-middle items-center">
             <div className="dropdown">
               <label tabIndex="0" className="btn btn-ghost text-white lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
